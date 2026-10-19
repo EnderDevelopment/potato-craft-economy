@@ -1,0 +1,28 @@
+name: PotatoCraft
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+description: A complete plugin system for Potato Craft server
+api-version: "1.21"
+commands:
+  sell:
+    description: Sell held items
+    usage: /sell
+  price:
+    description: Set item prices and announce them
+    usage: /price <item> <price>
+  market:
+    description: View market ads, prices, and sellers
+    usage: /market
+  trade:
+    description: Player-to-player trade
+    usage: /trade <player> <item> <amount>
+  powers:
+    description: View and activate special powers
+    usage: /powers
+  unlock:
+    description: Unlock new dimensions
+    usage: /unlock <dimension>
+  boss:
+    description: View boss progression
+    usage: /boss
